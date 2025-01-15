@@ -1,0 +1,36 @@
+@media only screen and (max-width: 650px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .logo-section{
+        margin: 20px auto;
+      }
+     .heading{
+        display: flex;
+        flex-direction: column;
+     } 
+     .heading-title{
+        margin-bottom: 20px;
+     }
+     .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+     .post-details{
+        display: flex;
+        flex-direction: column;
+     }
+     .post-content, .post-image{
+        width: 100%;
+     }
+     .review-heading{
+        text-align: center;
+     }
+
+     .review-section{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+}

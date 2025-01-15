@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 85%;
+  margin: 0 auto;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #DBD7D7;
+}
+.logo-section{
+  width: 150px;
+}
+.logo{
+  width: 100%;
+}
+
+.button-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #D9D9D933;
+  padding: 10px;
+  border-radius: 5px;
+}
+.signin-button {
+  padding: 5px 20px;
+  background-color: #E3E3E3;
+  border: 1px solid #767676;
+  border-radius: 5px;
+}
+.register-button{
+  padding: 5px 20px;
+  background-color: #2C2C2C;
+  color: #E3E3E3;
+  border: 1px #767676;
+  border-radius: 5px;
+}
+.post-container{
+  margin: 25px 10px;
+  padding: 10px 10px;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 25px ;
+}
+.heading-title{
+  font-size: 35px;
+  font-weight: bold;
+}
+.search-bar{
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.search-field{
+  width: 330px;
+  padding: 15px;
+  background-color: #F0F1F5;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.post-card{
+  background-color: #F7F9F9;
+  border-radius: 10px;
+  position: relative;
+}
+.card-image{
+ width: 100%;
+ border-radius: 5px;
+}
+.viewer{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 3px;
+  background-color: #FFFEFE;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card-content{
+  margin-top: 10px;
+  padding: 15px;
+}
+.date-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.category{
+  font-weight:bold;
+  padding: 5px 12px;
+  background-color: #FFFEFE;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.post-title, .follow,.review-heading,.review-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+.read-more{
+  text-decoration: none;
+}
+
+.post-details{
+  margin: 30px 0px;
+  padding: 10PX;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.post-category{
+  font-weight:bold;
+  padding: 5px 12px;
+  background-color: #C9C5C580;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.details{
+  text-align: justify;
+  margin-top: 20px;
+}
+.post-content, .post-image{
+  width: 50%;
+}
+.review-heading{
+  margin: 30px 10px;
+}
+.review-section{
+  margin:40px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.review-card{
+  padding: 15px;
+  border:1px solid #D9D9D9;
+  border-radius: 5px;
+}
+.reviewer{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.person{
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.subscription-section{
+  text-align: center;
+  margin: 50px 0;
+  padding: 20px;
+}
+.newsletter{
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #757575;
+}
+.email-field{
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+}
+
+.submit-button{
+  margin-left: 10px;
+  padding: 15px;
+  background-color: #2C2C2C;
+  color: #E3E3E3;
+  border: 1px #767676;
+  border-radius: 5px;
+}
+
+
+
+
+.loading{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
